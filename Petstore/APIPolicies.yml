@@ -1,0 +1,15 @@
+kind: StagedPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: APIPolicies
+  namespace: Petstore
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - webMethods
+spec:
+  routing:
+    - $ref: Petstore:invoke-APIPolicies:1.0
+  security:
+    - $ref: Petstore:Identity:1.0

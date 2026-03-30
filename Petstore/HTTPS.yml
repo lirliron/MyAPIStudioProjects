@@ -1,0 +1,11 @@
+kind: URISchemes
+apiVersion: api.ibm.com/v1
+metadata:
+  name: HTTPS
+  namespace: Petstore
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  uriSchemes:
+    - https

@@ -9,3 +9,7 @@ metadata:
 spec:
   api-spec:
     $path: ./Petstore3-spec.json
+  uriSchemes:
+    $ref: Petstore:HTTPS:1.0
+  policy-sequence:
+    - $ref: Petstore:DPSeq:1.0
