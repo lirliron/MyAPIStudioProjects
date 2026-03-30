@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Petstore3
+  namespace: Petstore
+  version: '1.0'
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./Petstore3-spec.json
